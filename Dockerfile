@@ -13,7 +13,7 @@ RUN git clone git://github.com/lmenezes/elasticsearch-kopf.git kopf-v0.90
 WORKDIR kopf-v0.90
 
 RUN git checkout 1.0 \
-        && cp -rp _site $DIRPATH/kopf-v1.
+        && cp -rp _site $DIRPATH/kopf-v1.x
 
 RUN git checkout 2.0 \
         && cp -rp _site $DIRPATH/kopf-v2.x
