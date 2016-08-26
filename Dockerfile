@@ -20,4 +20,6 @@ RUN git checkout 2.0 \
 
 RUN git checkout 0.90
 
+COPY ./docroot/index.html /usr/local/apache2/htdocs/
+
 EXPOSE 80
