@@ -1,5 +1,5 @@
 # docker_kopf
-Overkill container!! :)
+Overkill container !! :)
 One basic container to manage various ES clusters whatever their versions
 
 ## How to run it
@@ -11,3 +11,6 @@ One basic container to manage various ES clusters whatever their versions
 ```docker run -d -p 80:80 kopf```
 * test it
 ```curl -v http://127.0.0.1:80```
+
+## Docker Hub
+you can find this image on Docker Hub: https://hub.docker.com/r/labynocle/docker_kopf/
