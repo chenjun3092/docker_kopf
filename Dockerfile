@@ -22,4 +22,6 @@ RUN git checkout 0.90
 
 COPY ./docroot/index.html /usr/local/apache2/htdocs/
 
+RUN rm -rf .git/
+
 EXPOSE 80
